@@ -34,5 +34,8 @@
     "singleQuote": true,
     "trailingComma": "none",
     "arrowParens": "avoid"
+  },
+  "dependencies": {
+    "mousetrap": "^1.6.5"
   }
 }

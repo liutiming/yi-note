@@ -18,6 +18,10 @@ const StyledStatus = styled.span`
   font-weight: bold;
 `;
 
+var Mousetrap = require("mousetrap");
+
+Mousetrap.bind("alt+k", function() {alert("shortcut activated")})
+
 const Editor = () => {
   const { t } = useTranslation('notesView');
   const {
